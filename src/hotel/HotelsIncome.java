@@ -84,6 +84,6 @@ public class HotelsIncome {
 ----- The lowest income -----
 90.0 $
 ----- The average income -----
-2189.75 $
+2190.75 $
 Suite Rooms bring more income
  */
