@@ -200,6 +200,9 @@ public class SuiteRoom implements IAccounting {
         if (this.isregularCustomer == true) {
             discount += 0.03;
         }
+
+        //cost of one excursion 30$
+
         return this.pricePerDay * this.numberOfPersons * this.days * (1 - discount) + (this.numberOfExcursions * 30);
     }
 }
