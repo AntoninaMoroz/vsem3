@@ -378,61 +378,61 @@ public class Lists {
 
 --- Create 100 000 Integer elements ---
 ArrayList duration 157
-size of ArrayList 100000
+size of ArrayList 100000      LinkedList is almost 2 times faster than ArrayList created 100 000 elements
 LinkedList duration 69
 size of LinkedList 100000
 
 --- Insert new 1000 elements on the beginning ---
 ArrayList duration 110
-size of ArrayList now 101000
+size of ArrayList now 101000    ArrayList much faster insert new 1000 elements on the beginning than LinkedList
 LinkedList duration 1
 size of LinkedList now 101000
 
 --- Insert new 1000 elements on the middle ---
 ArrayList duration 22
-size of ArrayList now 102000
+size of ArrayList now 102000     ArrayList much slower insert new 1000 elements on the middle than LinkedList
 LinkedList duration 435
 size of ArrayList now 102000
 
 --- Insert new 1000 elements on the end ---
 ArrayList duration 1
-size of ArrayList now 103000
+size of ArrayList now 103000       ArrayList much faster insert new 1000 elements on the end than LinkedList
 LinkedList duration 82
 size of LinkedList now 103000
 
 --- Update 1000 elements  on the  beginning ---
 ArrayList duration 0
-size of ArrayList now 103000
+size of ArrayList now 103000        ArrayList is faster than LinkedList Update 1000 elements  on the  beginning
 LinkedList duration 1
 size of LinkedList now 103000
 
 --- Update 1000 elements on the middle ---
 ArrayList duration 1
-size of ArrayList now 103000
+size of ArrayList now 103000         ArrayList much faster Update 1000 elements on the middle than LinkedList
 LinkedList duration 365
 size of ArrayList now 103000
 
 --- Update 1000 elements on the end ---
 ArrayList duration 0
-size of ArrayList now 103000
+size of ArrayList now 103000         LinkedList much slower Update 1000 elements on the end than ArrayList
 LinkedList duration 12
 size of LinkedList now 103000
 
 --- Delete 1000 elements on the beginning ---
 ArrayList duration 96
-size of ArrayList now 102000
+size of ArrayList now 102000           LinkedList much faster delete 1000 elements on the beginning than ArrayList
 LinkedList duration 1
 size of LinkedList now 102000
 
 --- Delete 1000 elements on the middle ---
 ArrayList duration 22
-size of ArrayList now 101000
+size of ArrayList now 101000         LinkedList much slower delete 1000 elements on the middle than ArrayList
 LinkedList duration 243
 size of ArrayList now 101000
 
 --- Delete 1000 elements on the end ---
 ArrayList duration 1
-size of ArrayList now 100000
+size of ArrayList now 100000        LinkedList  slower delete 1000 elements on the end  than ArrayList
 LinkedList duration 7
 size of LinkedList now 100000
 

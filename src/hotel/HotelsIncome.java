@@ -57,7 +57,7 @@ public class HotelsIncome {
         double averageIncome = list.stream().mapToDouble(IAccounting::getPriceForAllAccommodation).average().getAsDouble();
         System.out.println(averageIncome + " $");
 
-        //6. which rooms bring more income (Economy or Suite Rooms)?
+        //6. Which rooms bring more income (Economy or Suite Rooms)?
 
         double totalSumEconomyRooms = list.stream()
                 .filter(el -> el instanceof EconomyRoom)
@@ -80,7 +80,7 @@ public class HotelsIncome {
 ----- The total income -----
 21907.5 $
 ----- The largest income -----
-8917$
+8917.0 $
 ----- The lowest income -----
 90.0 $
 ----- The average income -----
