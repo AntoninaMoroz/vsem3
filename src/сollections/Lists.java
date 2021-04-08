@@ -384,19 +384,19 @@ size of LinkedList 100000
 
 --- Insert new 1000 elements on the beginning ---
 ArrayList duration 110
-size of ArrayList now 101000    ArrayList much faster insert new 1000 elements on the beginning than LinkedList
+size of ArrayList now 101000    ArrayList much slower insert new 1000 elements on the beginning than LinkedList
 LinkedList duration 1
 size of LinkedList now 101000
 
 --- Insert new 1000 elements on the middle ---
 ArrayList duration 22
-size of ArrayList now 102000     ArrayList much slower insert new 1000 elements on the middle than LinkedList
+size of ArrayList now 102000     ArrayList is faster by 413 milliseconds than LinkedList insert new 1000 elements on the middle
 LinkedList duration 435
 size of ArrayList now 102000
 
 --- Insert new 1000 elements on the end ---
 ArrayList duration 1
-size of ArrayList now 103000       ArrayList much faster insert new 1000 elements on the end than LinkedList
+size of ArrayList now 103000       ArrayList is faster by 81 milliseconds than LinkedList insert new 1000 elements on the end
 LinkedList duration 82
 size of LinkedList now 103000
 
@@ -414,7 +414,7 @@ size of ArrayList now 103000
 
 --- Update 1000 elements on the end ---
 ArrayList duration 0
-size of ArrayList now 103000         LinkedList much slower Update 1000 elements on the end than ArrayList
+size of ArrayList now 103000         ArrayList is faster by 12 milliseconds than LinkedList Update 1000 elements on the end
 LinkedList duration 12
 size of LinkedList now 103000
 
@@ -426,16 +426,18 @@ size of LinkedList now 102000
 
 --- Delete 1000 elements on the middle ---
 ArrayList duration 22
-size of ArrayList now 101000         LinkedList much slower delete 1000 elements on the middle than ArrayList
+size of ArrayList now 101000         LinkedList is 10 times slower delete 1000 elements on the middle than ArrayList
 LinkedList duration 243
 size of ArrayList now 101000
 
 --- Delete 1000 elements on the end ---
 ArrayList duration 1
-size of ArrayList now 100000        LinkedList  slower delete 1000 elements on the end  than ArrayList
+size of ArrayList now 100000        LinkedList slower delete 1000 elements on the end  than ArrayList
 LinkedList duration 7
 size of LinkedList now 100000
 
+Conclusion: ArrayList is better to insert new elements on the middle and on the end, to update elements, to delete on the middle and on the end.
+LinkedList is better to create Integer elements, to insert or delete elements on the beginning.
      */
 
 
